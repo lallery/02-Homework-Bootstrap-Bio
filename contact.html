@@ -1,13 +1,16 @@
 <div class="container">
-    <div style="text-align:center"> <link href="style.css">
-      <h2>Contact</h2>
-    <div class="row">
+    <div style="text-align:center"> 
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+      <h2 id="contactheader">Contact</h2> 
+      <p id="pleasecontact">Please feel free to contact me via email</p> 
+      <div class=header>
+    <div class="contact-row">
       <div class="column">
-        <img src="/w3images/map.jpg" style="width:100%">
+        <img src="Contact Us.jpg" width="18%" class="contact"> 
       </div>
-      <div class="column">
-        <form action="/action_page.php">
-          <label for="fname">First Name</label>
+      <div class="contact-colom">
+        <form method="post" action="mailto:lukeallery@gmail.com">
+          <div for="fname">First Name</div>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
           <label for="lname">Last Name</label>
           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
@@ -19,7 +22,7 @@
           </select>
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-          <input type="submit" value="Submit">
+          <input type="submit" value="Submit email to: lukeallery@gmail.com"> 
         </form>
       </div>
     </div>
